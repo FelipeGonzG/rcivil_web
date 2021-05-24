@@ -3,6 +3,7 @@
 	<name>RCivilWeb</name>
 	<comment></comment>
 	<projects>
+		<project>RCivilModel</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

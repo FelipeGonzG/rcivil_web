@@ -40,7 +40,7 @@ public class SolicitudesDAO implements SolicitudesDAOLocal {
 	@Override
 	public List<Solicitud> filterByName(String nombre) {
 		
-		return solicitudes.stream().filter(c->c.getNombre().contains(nombre)).collect(Collectors.toList());
+		return solicitudes.stream().filter(s->s.getNombre().contains(nombre)).collect(Collectors.toList());
 	}
 
 }
